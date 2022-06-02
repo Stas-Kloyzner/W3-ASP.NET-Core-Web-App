@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QeWsX1bfjTTNm+Mn0VdFkr9wSjBhQYViJiMHzNR9n6l5D+voR5T4+26th2bvgsyb1WVQnEG4eJjy7J+LvZ1kPA==",
+  "dgSpecHash": "nU7PZ27laKfYuvZ6TbuG+y3qISMXkktx5lbcumMEAJxVkIspmgF616/RYg79naeYLe3HOQEV77h9dtMKedET8w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stas\\source\\repos\\W3-ASP.NET-Core-Web-App\\W3-ASP.NET-Core-Web-App\\W3-ASP.NET-Core-Web-App.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Stas\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
