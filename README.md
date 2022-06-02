@@ -28,7 +28,8 @@ It should be located in:  \W3-ASP.NET-Core-Web-App\bin\Release\net6.0\
 
 ## 3) Set Up the IIS
 - First you will need to download the [ASP.NET Core 6.0 Runtime (v6.0.5) - Windows Hosting Bundle](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-6.0.5-windows-hosting-bundle-installer) and install it.
--  Next, enable the IIS :  **Control Panel >> Programs and Features >> Turn Windows features on or off**.
+- Next you need to Enable IIS and required IIS components on Windows Server , use this [GUIDE](https://enterprise.arcgis.com/en/web-adaptor/latest/install/iis/enable-iis-2016-components-server.htm)
+- Enable the IIS :  **Control Panel >> Programs and Features >> Turn Windows features on or off**.
 Tick the Internet Information Services box and press **ok**.
 - Now open the IIS : **Windows Administrative Tools >> Internet Information Services (IIS) Manager**.
 - On the left under Connections open your machine , right click on Application Pools and select **Add application Pool** , name it as you wish.
