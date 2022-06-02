@@ -14,10 +14,14 @@ Nothing special here , just create a folder and name it as to your liking.
 
 Before the app can be deployed using the IIS ,it needs to be Published(compiled) and it can be done in several ways:
 1) **Using Visual studio** ,right click on your app folder in the Solution Explorer and select "Publish" which will prompt you to select a path to a location in which the Publish files will be saved .
-2) **Using cmd.exe** ,for this you will need to download the [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.300-windows-x64-installer) and install it on the windows machine on which you wish to publish.
+2) 
+3) **Using cmd.exe** ,for this you will need to download the [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.300-windows-x64-installer) and install it on the windows machine on which you wish to publish.
+4) 
 Once installed, go to the folder containing the cloned Github repo and open cmd (just write cmd in the the location bar of Windows Explorer).
 In the **cmd** type :  `dotnet publish -c Release` .
+
 That is it, now you should have a folder named Publish containing the ready app. 
+
 It should be located in:  \W3-ASP.NET-Core-Web-App\bin\Release\net6.0\
 
 **Note that these two methods aren't the only ones , you may use whichever method suits you best.**
@@ -36,7 +40,9 @@ Now you can enter http://localhost:5100/ in your web browser and see the app run
 ## 4) Possible errors
 
 When trying to access the app on http://localhost:5100/ you may encounter an error, do not panic, it is probably because the IIS cant access the **web.config** file.
+
 To solve this go to https://docs.microsoft.com/en-us/troubleshoot/developer/webapps/iis/health-diagnostic-performance/http-error-500-19-webpage and scroll down until you find the correct section for your error (Should be under **HRESULT code 0x80070005**), follow the steps described there and your problem should be solved, I know mine was ;).
+
 For other errors you may reference the menu on the left of the page or download a [.pdf manual](https://opdhsblobprod04.blob.core.windows.net/contents/339277257e174fac944c6129b3f0ed8e/0ea7d1829755983a40a0d6aea3878a7c?skoid=2d004ef0-5468-4cd8-a5b7-14c04c6415bc&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2022-06-02T05%3A20%3A31Z&ske=2022-06-09T05%3A25%3A31Z&sks=b&skv=2020-10-02&sv=2020-08-04&se=2022-06-03T19%3A26%3A39Z&sr=b&sp=r&sig=%2BXZPfW9tiDABiRpt%2BM0D1ocbeJ129jpq2KwQBiY%2BqaA%3D) for later use/reference.
 
 
