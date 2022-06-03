@@ -15,8 +15,8 @@ Nothing special here , just create a folder and name it as to your liking.
 Before the app can be deployed using the IIS ,it needs to be Published(compiled) and it can be done in several ways:
 1) **Using Visual studio** ,right click on your app folder in the Solution Explorer and select "Publish" which will prompt you to select a path to a location in which the Publish files will be saved .
 2) **Using cmd.exe** ,for this you will need to download the [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.300-windows-x64-installer) and install it on the windows machine on which you wish to publish.
+Once installed, go to the folder containing the cloned Github repo (if you see the **W3-ASP.NET-Core-Web-App.sln** file, you are in the correct place) and open cmd (just write cmd in the the location bar of Windows Explorer).
 
-Once installed, go to the folder containing the cloned Github repo (if you see the W3-ASP.NET-Core-Web-App.sln file, you are in the correct place) and open cmd (just write cmd in the the location bar of Windows Explorer).
 In the **cmd** type :  `dotnet publish -c Release` .
 
 That is it, now you should have a folder named Publish containing the ready app. 
